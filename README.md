@@ -1,4 +1,4 @@
-# learn Emmet
+# Learn Emmet
 
 This repository is created to practice and understand **emmet syntax** for writing HTML faster and more efficiently.
 
@@ -8,6 +8,11 @@ Emmet allows developers to generate complex HTML structures using short and read
 
 Learning Emmet through hands-on practice using small HTML examples.
 
+## Emmet Practice
+
+Practice files for learning Emmet syntax step by step.
+
+- [Emmet Basics](basics/README.md)
 
 ## Reference
 
