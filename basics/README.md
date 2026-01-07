@@ -13,19 +13,25 @@ Each file demonstrates one Emmet concept with a simple HTML example.
 ## Emmet Syntax and Its Generated HTML Output
 
 ### Emmet Text Syntax `{}`
+
 ```emmet
 p{Paragraph} 
 ```
+
 **Output**
+
 ```html 
 <p>Paragraph</p>
 ```
 
 ### Emmet Child Syntax `>`
-```    html 
+
+```emmet
 header>h1{Heading} 
 ```
+
 **Output**
+
 ```html 
 <header>
     <h1>Heading</h1>
@@ -33,10 +39,13 @@ header>h1{Heading}
 ```
 
 ### Emmet Multiplication Syntax `*`
-```    html 
+
+```emmet
 ul>li*5{list item} 
 ```
+
 **Output**
+
 ```html 
 <ul>
     <li>list item</li>
@@ -48,10 +57,13 @@ ul>li*5{list item}
 ```
 
 ### Emmet Grouping Syntax `()`
-```    html 
+
+```emmet
 main>(ul>li*4{List Item})*3
 ```
+
 **Output**
+
 ```html 
 <main>
     <ul>
@@ -76,10 +88,13 @@ main>(ul>li*4{List Item})*3
 ```
 
 ### Emmet Sibling Syntax `+`
-```    html 
+
+```emmet
 div>(section>h2{Heading}+p*3{Paragraph})*2+section*2
 ```
+
 **Output**
+
 ```html 
 <div>
     <section>
